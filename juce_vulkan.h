@@ -9,7 +9,7 @@
   ID:            juce_vulkan
   vendor:        Haute Technique
   version:       1.0.1
-  name:          Vulkan for Juce
+  name:          Vulkan for JUCE
   description:   Modern tech GPU for both Windows and MacOS
 
   dependencies:  juce_core juce_gui_basics
@@ -21,15 +21,10 @@
   ==============================================================================
  */
 
-#ifndef HAUTE_MIDI_INCLUDED_H
-#define HAUTE_MIDI_INCLUDED_H
+#pragma once 
 
 #include <juce_core/juce_core.h>
 #include <juce_gui_basics/juce_gui_basics.h>
-
-using namespace juce;
-
-[...]
 
 #endif
 
